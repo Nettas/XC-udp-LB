@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "name": "endpoint-a",
+    "namespace": "namespace",
+    "labels": {},
+    "annotations": {},
+    "disable": false
+  },
+  "spec": {
+    "where": {
+      "virtual_network": {
+        "ref": [
+          {
+            "kind": "virtual_network",
+            "tenant": "ves-io",
+            "namespace": "shared",
+            "name": "public"
+          }
+        ]
+      }
+    },
+    "protocol": "UDP",
+    "port": 53,
+    "health_check_port": 0,
+    "ip": "x.x.x.x",
+    "snat_pool": {}
+  }
+}

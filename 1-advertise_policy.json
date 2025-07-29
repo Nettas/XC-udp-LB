@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "name": "test-policy",
+    "namespace": "default",
+    "labels": {},
+    "annotations": {},
+    "disable": false
+  },
+  "spec": {
+    "where": {
+      "virtual_network": {
+        "ref": [
+          {
+            "kind": "virtual_network",
+            "tenant": "ves-io",
+            "namespace": "shared",
+            "name": "public"
+          }
+        ]
+      }
+    },
+    "public_ip": [],
+    "protocol": "UDP",
+    "port": 53,
+    "skip_xff_append": false
+  }
+}
