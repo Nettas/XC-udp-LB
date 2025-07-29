@@ -1,11 +1,11 @@
 ALl Post calls:
 1. advertise policy
-    https://f5-sa.console.ves.volterra.io/api/config/namespaces/s-iannetta/advertise_policys
+    https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/advertise_policys
 2. endpoint
-    https://f5-sa.console.ves.volterra.io/api/config/namespaces/s-iannetta/endpoints
+    https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/endpoints
 3. cluster
-    https://f5-sa.console.ves.volterra.io/api/config/namespaces/s-iannetta/clusters
+    https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/clusters
 4. route
-    https://f5-sa.console.ves.volterra.io/api/config/namespaces/s-iannetta/routes
+    https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/routes
 5 virtual host
-    https://f5-sa.console.ves.volterra.io/api/config/namespaces/s-iannetta/virtual_hosts
+    https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/virtual_hosts
