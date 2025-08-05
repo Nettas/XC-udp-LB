@@ -1,4 +1,4 @@
-ALl Post calls:
+All Post calls:
 1. advertise policy
     https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/advertise_policys
 2. endpoint
