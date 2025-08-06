@@ -12,3 +12,4 @@ curl:
 curl https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/udp_loadbalancers \
 	-H "Authorization: APIToken {add token here} \
 	-H "Content-Type: application/json" \
+    -X POST -d '"add json"
