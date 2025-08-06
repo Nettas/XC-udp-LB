@@ -1,0 +1,7 @@
+Create:
+Post
+https://f5-ace-team.console.ves.volterra.io/api/config/namespaces/b-haines/udp_loadbalancers
+
+Destroy:
+Delete
+https://f5-ace-team.console.ves.volterra.io/api/config/namespaces/b-haines/udp_loadbalancers/name_of_udp_lb

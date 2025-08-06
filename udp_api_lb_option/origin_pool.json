@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "name": "name",
+    "namespace": "namespace"
+  },
+  "spec": {
+    "origin_servers": [
+      {
+        "public_name": {
+          "dns_name": "dns_name",
+          "refresh_interval": 300
+        },
+        "labels": {}
+      },
+      {
+        "public_name": {
+          "dns_name": "dns_name",
+          "refresh_interval": 300
+        },
+        "labels": {}
+      }
+    ],
+    "no_tls": {},
+    "port": 53,
+    "same_as_endpoint_port": {},
+    "healthcheck": [],
+    "loadbalancer_algorithm": "LB_OVERRIDE",
+    "endpoint_selection": "LOCAL_PREFERRED",
+    "upstream_conn_pool_reuse_type": {
+      "enable_conn_pool_reuse": {}
+    }
+  }
+}
