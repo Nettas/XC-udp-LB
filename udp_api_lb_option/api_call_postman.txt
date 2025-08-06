@@ -5,3 +5,10 @@ https://f5-ace-team.console.ves.volterra.io/api/config/namespaces/b-haines/udp_l
 Destroy:
 Delete
 https://f5-ace-team.console.ves.volterra.io/api/config/namespaces/b-haines/udp_loadbalancers/name_of_udp_lb
+
+
+curl:
+
+curl https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/udp_loadbalancers \
+	-H "Authorization: APIToken {add token here} \
+	-H "Content-Type: application/json" \
