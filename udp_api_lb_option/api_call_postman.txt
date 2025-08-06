@@ -1,4 +1,8 @@
-Create:
+create origin pool
+Post:
+https://f5-sa.console.ves.volterra.io/api/config/namespaces/s-iannetta/origin_pools
+
+Create udp lb:
 Post
 https://f5-ace-team.console.ves.volterra.io/api/config/namespaces/b-haines/udp_loadbalancers
 
@@ -8,6 +12,11 @@ https://f5-ace-team.console.ves.volterra.io/api/config/namespaces/b-haines/udp_l
 
 
 curl:
+
+curl https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/origin_pools \
+	-H "Authorization: APIToken {add token here} \
+	-H "Content-Type: application/json" \
+    -X POST -d '"add json"
 
 curl https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/udp_loadbalancers \
 	-H "Authorization: APIToken {add token here} \
