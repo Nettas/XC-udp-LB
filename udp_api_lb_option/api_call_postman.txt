@@ -16,9 +16,9 @@ curl:
 curl https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/origin_pools \
 	-H "Authorization: APIToken {add token here} \
 	-H "Content-Type: application/json" \
-    -X POST -d 'add json'
+        -X POST -d 'add json'
 
 curl https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/udp_loadbalancers \
 	-H "Authorization: APIToken {add token here} \
 	-H "Content-Type: application/json" \
-    -X POST -d 'add json'
+        -X POST -d 'add json'
