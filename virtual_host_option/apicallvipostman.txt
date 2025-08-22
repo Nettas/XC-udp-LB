@@ -1,11 +1,11 @@
 All Post calls:
 1. advertise policy
-    https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/advertise_policys
+    https://xc-tenant.console.ves.volterra.io/api/config/namespaces/xc-namespace/advertise_policys
 2. endpoint
-    https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/endpoints
+    https://xc-tenant.console.ves.volterra.io/api/config/namespaces/xc-namespace/endpoints
 3. cluster
-    https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/clusters
+    https://xc-tenant.console.ves.volterra.io/api/config/namespaces/xc-namespace/clusters
 4. route
-    https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/routes
+    https://xc-tenant.console.ves.volterra.io/api/config/namespaces/xc-namespace/routes
 5 virtual host
-    https://tenant.console.ves.volterra.io/api/config/namespaces/namespace/virtual_hosts
+    https://xc-tenant.console.ves.volterra.io/api/config/namespaces/xc-namespace/virtual_hosts
